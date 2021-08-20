@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { useParams, Link } from "react-router-dom";
 import { RiShoppingBag3Line } from "react-icons/ri";
 import { IoFastFoodOutline, IoNutritionOutline } from "react-icons/io5";
@@ -6,7 +6,7 @@ import { BiDrink } from "react-icons/bi";
 import classnames from "classnames";
 
 const MobileTabs = () => {
-  const [allTypes, setAllTypes] = useState([
+  const [allTypes] = useState([
     {
       id: "delivery",
       icon: <RiShoppingBag3Line />,
@@ -59,7 +59,7 @@ const MobileTabs = () => {
 };
 
 const LargeTabs = () => {
-  const [allTypes, setAllTypes] = useState([
+  const [allTypes] = useState([
     {
       id: "delivery",
       imageDefault:
