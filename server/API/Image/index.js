@@ -16,6 +16,11 @@ const storage = multer.memoryStorage();
 const upload = multer({ storage });
 
 /*
+AWS S3 Bucket config 
+Secret key and AWS ID 
+*/
+
+/*
 Route     /
 Des       Uploads given image to S3 bucket, and saves file link to mongodb
 Params    none

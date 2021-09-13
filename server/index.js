@@ -1,4 +1,3 @@
-
 // Importing Env Variables
 require("dotenv").config();
 
@@ -36,7 +35,6 @@ googleAuthConfig(passport);
 zomato.use("/auth", Auth);
 zomato.use("/restaurant", Restaurant);
 zomato.use("/food", Food);
-
 
 zomato.get("/", (req, res) => res.json({ message: "Setup success" }));
 
