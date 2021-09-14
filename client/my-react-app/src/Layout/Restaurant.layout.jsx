@@ -10,7 +10,7 @@ import InfoButtons from "../Components/restaurant/InfoButtons";
 import RestaurantInfo from "../Components/restaurant/RestaurantInfo";
 import TabContainer from "../Components/restaurant/Tabs";
 
-const RestaurantLayout = () => {
+const RestaurantLayout = (props) => {
   return (
     <>
       {" "}
@@ -29,7 +29,7 @@ const RestaurantLayout = () => {
           restaurantRating="3.5"
           deliveryRating="3.2"
           cuisine="North Indian, Fast Food, Chinese, Street Food"
-          address="Ganesh Colony, Faizpur"
+          address="Basavanagudi, Bangalore"
         />
         <div className="my-4 flex flex-wrap gap-3">
           <InfoButtons isActive>
@@ -44,10 +44,11 @@ const RestaurantLayout = () => {
           <InfoButtons>
             <RiShareForwardLine /> Share
           </InfoButtons>
-          <div className="my-4">
-            <TabContainer />
-          </div>
         </div>
+        <div className="my-10">
+          <TabContainer></TabContainer>
+        </div>
+        <div className="relative">{props.children}</div>
       </div>
     </>
   );
