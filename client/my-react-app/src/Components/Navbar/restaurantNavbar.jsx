@@ -3,10 +3,12 @@ import { FaUserAlt } from "react-icons/fa";
 import { HiLocationMarker } from "react-icons/hi";
 import { IoMdArrowDropdown, IoMdArrowDropup } from "react-icons/io";
 import { RiSearch2Line } from "react-icons/ri";
+import { AiOutlineArrowLeft } from "react-icons/ai";
 
 const MobileNav = () => {
   return (
     <div className="flex w-full items-center justify-between lg:hidden">
+      <AiOutlineArrowLeft />
       <div className="w-28">
         <img
           src="https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png"
@@ -29,7 +31,7 @@ const MobileNav = () => {
 const LargeNav = () => {
   return (
     <>
-      <div className="container px-20 mx-auto">
+      <div className="hidden lg:inline container px-20 mx-auto">
         <div className="hidden gap-4 w-full items-center justify-around lg:flex ">
           <div className="w-28">
             <img
@@ -45,7 +47,7 @@ const LargeNav = () => {
               </span>
               <input
                 type="text"
-                placeholder="Faizpur"
+                placeholder="Bengaluru"
                 className=" focus:outline-none"
               />
               <IoMdArrowDropdown />
@@ -76,7 +78,7 @@ const LargeNav = () => {
 const Navbar = () => {
   return (
     <>
-      <nav className="p-4 flex bg-white shadow-md w-full items-center">
+      <nav className="p-4 flex bg-white shadow-md lg:shadow-none w-full items-center">
         <MobileNav />
         <LargeNav />
       </nav>
