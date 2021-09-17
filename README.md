@@ -22,30 +22,39 @@ ScreenShots:
    Backend:
    
     1.express:
-      The primary use of Express is to provide server-side logic for web and mobile applications, and as such it's used all over       the place. Companies which use Express as a foundation of their internet presence include: Accenture
+      The primary use of Express is to provide server-side logic for web and mobile applications, and as such it's used all over      
+      the place. Companies which use Express as a foundation of their internet presence include: Accenture
     
     2.@devbabel - 
-      Babel is a JavaScript compiler. Babel is a toolchain that is mainly used to convert ECMAScript 2015+ code into a backwards       compatible version of JavaScript in current and older browsers or environments. Here are the main things Babel can do             for you
+      Babel is a JavaScript compiler. Babel is a toolchain that is mainly used to convert ECMAScript 2015+ code into a backwards       
+      compatible version of JavaScript in current and older browsers or environments. Here are the main things Babel can do            
+      for you
       Simply, Babel can convert JSX syntax. 
       
     3.nodemon:
-      nodemon is a tool that helps develop node.js based applications by automatically restarting the node application when file       changes in the directory are detected.
+      nodemon is a tool that helps develop node.js based applications by automatically restarting the node application when file       
+      changes in the directory are detected.
       
      4.mongoose:
       First be sure you have MongoDB and Node.js installed.
-      Mongoose is an Object Data Modeling (ODM) library for MongoDB and Node.js. It manages relationships between data, provides       schema validation, and is used to translate between objects in code and the representation of those objects in MongoDB.
+      Mongoose is an Object Data Modeling (ODM) library for MongoDB and Node.js. It manages relationships between data, provides       
+      schema validation, and is used to translate between objects in code and the representation of those objects in MongoDB.
       
      5.cors:
      CORS is a node.js package for providing a Connect/Express middleware that can be used to enable CORS with various options.
      
      6.helmet:
-     Helmet helps you secure your Express apps by setting various HTTP headers. This reusable React component wwill manage all of      your changes to the document head.
+     Helmet helps you secure your Express apps by setting various HTTP headers. This reusable React component wwill manage all of      
+     your changes to the document head.
 
      7.bcryptjs:
-     Optimized bcrypt in JavaScript with zero dependencies. Compatible to the C++ bcrypt binding on node.js and also working in        the browser. Using bcrypt is a secured way to store passwords in my database regardless of whatever language my app's            backend is built in. Salted hashing — Generating random bytes (the salt) and combining it with the password before hashing
+     Optimized bcrypt in JavaScript with zero dependencies. Compatible to the C++ bcrypt binding on node.js and also working in        
+     the browser. Using bcrypt is a secured way to store passwords in my database regardless of whatever language my app's            
+     backend is built in. Salted hashing — Generating random bytes (the salt) and combining it with the password before hashing
      creates unique hashes across each user's password.
      
-     8.jsonwebtoken: JSON Web Token is a standard used to create access tokens for an application. This was developed against            draft-ietf-oauth-json-web-token-08. It makes use of node-jws
+     8.jsonwebtoken: JSON Web Token is a standard used to create access tokens for an application. This was developed against            
+     draft-ietf-oauth-json-web-token-08. It makes use of node-jws
      
      9.dotenv: 
       dotenv allows you to separate secrets from your source code. This is useful in a collaborative environment (e.g., work, or 
